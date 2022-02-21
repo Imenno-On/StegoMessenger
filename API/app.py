@@ -27,7 +27,7 @@ def upload():
         str1=""
         msg= ListOfMessages[-1]
         str1=msg['MessageText']
-        # str1="This is a secret HADGEHOG!!!"
+        # str1="This is a secret HEDGEHOG!!!"
         print(str1)
         img_encoded = steg.encode_text(str1)
         cv2.imwrite("stego.png", img_encoded)
@@ -66,7 +66,7 @@ def SendMessage():
     print(msg)
     msgtext = f"{msg['UserName']} <{msg['TimeStamp']}>: {msg['MessageText']}"
     print(f"Всего сообщений: {len(ListOfMessages)} Посланное сообщение: {msgtext}")
-    return f"Сообщение отослано успшно. Всего сообщений: {len(ListOfMessages)} ", 200
+    return f"Сообщение отослано успешно. Всего сообщений: {len(ListOfMessages)} ", 200
 
 # получение сообщений
 @app.route("/mes/<int:id>")
