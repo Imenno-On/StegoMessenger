@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
     <q-card>
       <q-card-section>
-          <h3>Аторизация</h3>
+          <h3>Авторизация</h3>
       </q-card-section>
       <q-card-section>
         <q-input 
