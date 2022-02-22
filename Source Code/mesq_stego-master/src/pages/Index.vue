@@ -38,7 +38,7 @@
           @click="onSendClick"
           :disabled="!messageText.length"
         >
-          Оправить
+          Отправить
         </q-btn>
       </q-card-section>
     </q-card>
