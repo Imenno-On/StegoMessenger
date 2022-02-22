@@ -23,7 +23,7 @@
           spinner-color="white"
           style="height: 320px; max-width: 540px"
         />
-         <q-btn @click="url='This is a secret HADGEHOG!!!'">Декодировать </q-btn>
+         <q-btn @click="url='This is a secret HEDGEHOG!!!'">Декодировать </q-btn>
          <q-input v-model="url"></q-input>
       </q-card-section>
 
